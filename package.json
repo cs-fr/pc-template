@@ -1,20 +1,10 @@
 {
-  "name": "pc-template",
-  "version": "1.0.0",
+  "name": "<%=projectName%>",
   "description": "template of PC web",
   "main": "index.js",
   "publishPath":"<%=publicPath%>",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cs-fr/pc-template.git"
-  },
-  "author": "cs-fr",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cs-fr/pc-template/issues"
-  },
-  "homepage": "https://github.com/cs-fr/pc-template#readme"
+    "dev"   : "node config/dev.js",
+    "build" : "node config/build.js"
+  }
 }
