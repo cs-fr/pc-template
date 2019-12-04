@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "template of PC web",
   "main": "index.js",
+  "publishPath":"<%=publicPath%>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
