@@ -1,6 +1,7 @@
 {
+  "author":"<%=author%>",	
   "name": "<%=projectName%>",
-  "description": "template of PC web",
+  "description": "<%=Desc%>",
   "main": "index.js",
   "publishPath":"<%=publicPath%>",
   "scripts": {
